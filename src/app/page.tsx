@@ -1,15 +1,13 @@
 'use client';
 
-import Link from 'next/link';
-import { useAuth } from '../contexts/AuthContext';
-import Image from 'next/image';
 import banner from "@/assets/images/banner-home.png";
 import CourseCarousel from '@/conponents/CourseCarousel/CourseCarousel';
 import ReasonInflozaElearning from '@/conponents/ReasonInflozaElearning/ReasonInflozaElearning';
 import SuccessStories from '@/conponents/SuccessStories/SuccessStories';
+import Image from 'next/image';
 import Footer from './footer';
 export default function HomePage() {
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   return (
     <div className="space-y-12">

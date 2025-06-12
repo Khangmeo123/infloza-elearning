@@ -1,15 +1,15 @@
 'use client';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
+import student1 from "@/assets/images/std-1.png";
+import student2 from "@/assets/images/std-2.png";
+import student3 from "@/assets/images/std-3.png";
+import Image from 'next/image';
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
-import Image from 'next/image';
-import student1 from "@/assets/images/std-1.png"
-import student2 from "@/assets/images/std-2.png"
-import student3 from "@/assets/images/std-3.png"
+import { Autoplay, EffectFade, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 const SuccessStories = () => {
     const testimonials = [
         {
