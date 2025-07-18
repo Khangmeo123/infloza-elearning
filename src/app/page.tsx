@@ -27,8 +27,6 @@ export default function HomePage() {
         <ReasonInflozaElearning />
       </section>
       <SuccessStories />
-
-      <Footer />
     </div>
   );
 }

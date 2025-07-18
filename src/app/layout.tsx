@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/contexts/AuthContext";
 import Navbar from "@/conponents/Navbar/Navbar";
+import Footer from "./footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,9 +34,10 @@ export default function RootLayout({
         <AuthProvider>
           <div className="min-h-screen bg-gray-50">
             <Navbar />
-            <main className="w-screen ">
+            <main className="w-screen mt-[72px]">
               {children}
             </main>
+            <Footer />
           </div>
         </AuthProvider>
       </body>
